@@ -24,7 +24,6 @@ function Feed() {
             data: doc.data(),
           }))
         );
-        console.log(posts);
       });
   }, []);
 
