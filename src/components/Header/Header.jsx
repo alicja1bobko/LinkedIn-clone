@@ -12,6 +12,7 @@ import { logout } from "../../features/userSlice";
 
 function Header() {
   const dispatch = useDispatch();
+
   const logoutOfApp = () => {
     dispatch(logout());
     auth.signOut();
@@ -36,6 +37,7 @@ function Header() {
         <HeaderOption Icon={TextsmsIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
         <HeaderOption
+          onCli
           avatar={
             "https://media-exp1.licdn.com/dms/image/D4D03AQGSJOFfTI9uOQ/profile-displayphoto-shrink_100_100/0/1666013036629?e=1671667200&v=beta&t=kURXsMGwR4MCILZG43h8O4GO4-qjziwcIR_YBYsZr60"
           }
