@@ -1,6 +1,6 @@
 ## LinkedIn Clone Tutorial
 
-Playing around Redux and Firebase by building LinkedIn clone from [tutorial] (https://www.youtube.com/watch?v=QaYts9sPmcY).
+Playing around Redux and Firebase by building LinkedIn clone from [tutorial](https://www.youtube.com/watch?v=QaYts9sPmcY).
 
 ## What I learned
 
